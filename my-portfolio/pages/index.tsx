@@ -3,15 +3,9 @@ import Nav from "@/Components/Nav";
 import React from "react";
 
 const HomePage = () => {
-const [nav , setNav ] = React.useState(true)
-const openNav = () => {
-  console.log('open nav chal raha hai')
-  setNav(true)
-}
-const closeNav = () => {
-  console.log('close nav chal raha hai');
-  setNav(false)
-}
+  const [nav, setNav] = React.useState(false);
+  const openNav = () => setNav(true);
+  const closeNav = () => setNav(false);
   return (
     <div className="overflow-x-hidden">
       <div>

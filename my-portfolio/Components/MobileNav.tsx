@@ -6,11 +6,12 @@ interface Props {
   closeNav: () => void;
 }
 const MobileNav = ({nav , closeNav}:Props) => {
-    const navAnimated = nav? 'translate-x-0' : 'translate-x[-100%]'
-    console.log(nav);
-    console.log(navAnimated);
+    // const navAnimated = nav? 'block' : 'hidden'
+    const navAnimated = nav? 'translate-x-0' : 'translate-x-[-100%]'
+    // console.log(nav);
+    // console.log(navAnimated);
   return (
-    <div className={`fixed ${navAnimated} transform transition-all duration-300 top-0 bottom-0 left-0 right-0 z-[10000] bg-[#09101a]`}>
+    <div className={`fixed ${navAnimated}  transform transition-all duration-300 top-0 bottom-0 left-0 right-0 z-[10000] bg-[#09101a]`}>
       <div className="flex flex-col w-[100vw] h-[100vh] justify-center items-center">
         <div className="nav-link-mobile">HOME</div>
         <div className="nav-link-mobile">ABOUT</div>
