@@ -14,7 +14,7 @@ const Hero = () => {
                 HI, I'M  <span className='text-yellow-400 ' > HASAN</span>
             </h1>
                 <TextEffect />
-            <p className='mt-[1.5rem] text-[18px] text-[#ffffff92]  '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum placeat dolorum, labore ipsa ipsum, doloribus, libero unde quibusdam impedit dolores sapiente ducimus inventore reprehenderit.</p>
+            <p className='mt-[1.5rem] text-[18px] text-[#ffffff92]  '>I am Hasan. I have completed a web development course from SMIT (saylani Mass It Training) and have one year of learning experience, during which I have worked on several projects. I want to make myself successful in this field.</p>
             <div className='mt-[2rem] flex-col space-y-0 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6'>
                 <button className='px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2'>
                     <p>Download CV</p>
