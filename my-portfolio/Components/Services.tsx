@@ -44,6 +44,42 @@ const Services = () => {
             </p>
           </div>
         </div>
+        <div>
+          <div className="bg-purple-700 hover:scale-110 transform transition-all duration-300 hover:-rotate-6 uppercase font-semibold text-center p-[2rem]">
+            <CommandLineIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8] " />
+            <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]   ">
+              Marketing
+            </h1>
+            <p className="text-[15px] text-[#d3d2d2] font-normal   ">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae a
+              atque id ratione, veniam sapiente.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div className="bg-orange-700 hover:scale-110 transform transition-all duration-300 hover:-rotate-6 uppercase font-semibold text-center p-[2rem]">
+            <CommandLineIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8] " />
+            <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]   ">
+              Seo
+            </h1>
+            <p className="text-[15px] text-[#d3d2d2] font-normal   ">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae a
+              atque id ratione, veniam sapiente.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div className="bg-gray-700 hover:scale-110 transform transition-all duration-300 hover:-rotate-6 uppercase font-semibold text-center p-[2rem]">
+            <CommandLineIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8] " />
+            <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]   ">
+              Typing
+            </h1>
+            <p className="text-[15px] text-[#d3d2d2] font-normal   ">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae a
+              atque id ratione, veniam sapiente.
+            </p>
+          </div>
+        </div>
        
       </div>
     </div>
