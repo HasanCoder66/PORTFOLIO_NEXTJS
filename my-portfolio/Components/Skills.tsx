@@ -20,6 +20,21 @@ const Skills = () => {
           <SkillsItem />
           <SkillLanguages />
         </div>
+        <div>
+          <SkillsItem />
+          <SkillsItem />
+          <SkillLanguages />
+        </div>
+        <div>
+          <SkillsItem />
+          <SkillsItem />
+          <SkillLanguages />
+        </div>
+        <div>
+          <SkillsItem />
+          <SkillsItem />
+          <SkillLanguages />
+        </div>
       </div></>
   );
 }
