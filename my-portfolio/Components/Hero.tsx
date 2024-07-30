@@ -2,6 +2,7 @@ import React from 'react'
 import Particle from './Particle'
 import TextEffect from './TextEffect'
 import Image from "next/image";
+import youtubeImg from '../public/images/youtube.png'
 import { ArrowDownTrayIcon, PlayCircleIcon } from '@heroicons/react/20/solid';
 
 const Hero = () => {
@@ -27,7 +28,10 @@ const Hero = () => {
             </div>
             </div>
             <div className='w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px] '>
-                <Image src="/images/u1.jpg" alt="User" layout="fill" className="object-cover rounded-full" />
+                <Image 
+                // src={youtubeImg}
+                src="/images/u1.jpg"
+                 alt="User" layout="fill" className="object-cover rounded-full" />
             </div>
         </div>
     </div>
