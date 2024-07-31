@@ -5,6 +5,7 @@ import Nav from "@/Components/Nav";
 import Projects from "@/Components/Projects";
 import Services from "@/Components/Services";
 import Skills from "@/Components/Skills";
+import Testimonials from "@/Components/Testimonials";
 import React from "react";
 
 const HomePage = () => {
@@ -24,6 +25,7 @@ const HomePage = () => {
           <Services />
           <Skills />
           <Projects />
+          <Testimonials />
 
         </div>
       </div>
