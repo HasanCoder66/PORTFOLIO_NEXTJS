@@ -1,6 +1,7 @@
 import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import React from "react";
+import portfolioImg from '../public/images/portfolio.jpg'
 
 const About = () => {
   return (
@@ -28,7 +29,8 @@ const About = () => {
         </div>
         <div className="w-[500px] h-[500px] relative lg:w-[500px] lg:h-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 ">
           <Image
-            src="/images/about.jpg"
+            // src="/images/about.jpg"
+            src={portfolioImg}
             alt="User"
             layout="fill"
             objectFit="contain"
