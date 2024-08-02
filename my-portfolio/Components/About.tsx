@@ -28,7 +28,7 @@ const About = () => {
               I am dedicated to creating innovative and high-quality web
               applications that not only meet but exceed user expectations. My
               goal is to contribute to exciting projects that make a difference
-              and push the boundaries of what's possible in web development.
+              and push the boundaries of what possible in web development.
             </p>
           </div>
           <button
