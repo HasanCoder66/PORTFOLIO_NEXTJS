@@ -2,10 +2,11 @@ import React from 'react'
 
 interface props {
   title : string,
-  year : string
+  year : string,
+  desc : string
 }
 
-const SkillsItem = ({title, year}:props) => {
+const SkillsItem = ({title, year, desc}:props) => {
  
   return (
     <div className='mb-[4rem] md:mb-[8rem]'>
@@ -14,7 +15,7 @@ const SkillsItem = ({title, year}:props) => {
         {title}
       </h1>
       <p className="font-normal text-[#aaaaaa] w-[88%] text-[17px] opacity-80">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi consequuntur sint assumenda praesentium eaque, voluptatibus doloribus ipsa totam vel, dolore ex possimus voluptates quae accusamus?
+        {desc}
       </p>
     </div>
   )

@@ -13,7 +13,7 @@ const Skills = () => {
        
       <div className="w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2  gap-[2rem] items-center">
         <div>
-          <SkillsItem title="React Developer" year="2023 - 2024" />
+          <SkillsItem title="Enrolled In Governor Sindh Initiative" year="2024" desc={"Currently enrolled in the Governor Sindh Initiative, learning Web 3 and advanced web development technologies"}/>
           <SkillsItem title="MERN Stack Developer" year="2024" />
 
           <SkillLanguages
